@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui_background_normal" >
+
+    <ImageView
+        android:id="@+id/menu_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/main_ui_title_cn"
+        android:contentDescription="@drawable/main_ui_title_cn" />
+
+    <TextView
+        android:id="@+id/menu_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="@string/menu_start"
+        android:textColor="#eeee22"
+        android:textColorHighlight="#ffffff"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/menu_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/menu_start"
+        android:text="@string/menu_score"
+        android:textColor="#eeee22"
+        android:textColorHighlight="#ffffff"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/menu_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/menu_start"
+        android:text="@string/menu_setting"
+        android:textColor="#eeee22"
+        android:textColorHighlight="#ffffff"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/img_menu_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="60dp"
+        android:contentDescription="@drawable/button_other_038_2_cn"
+        android:src="@drawable/button_other_038_2_cn" />
+
+</RelativeLayout>
